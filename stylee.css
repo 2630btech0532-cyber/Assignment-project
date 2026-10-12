@@ -1,0 +1,70 @@
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    background-color: #f2f4ff;
+}
+
+header {
+    background-color: #3949ab;
+    color: white;
+    padding: 25px;
+}
+
+nav {
+    background-color: #283593;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    margin: 20px;
+    text-decoration: none;
+}
+
+#registrationForm {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+form {
+    background-color: white;
+    padding: 25px;
+    width: 320px;
+    max-width: 85%;
+    border-radius: 10px;
+    box-shadow: 0 0 8px gray;
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: left;
+}
+
+input, select {
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #3949ab;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    margin: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #283593;
+}
+
+#message {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px;
+}
